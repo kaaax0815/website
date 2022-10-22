@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		// revision: 0,                            // default: 0
 
 		onFirstAction: (user_preferences) => {
-			window.plausible("Cookie", { props: { accept_type: user_preferences.accept_type, accepted_categories: user_preferences.accepted_categories, rejected_categories: user_preferences.rejected_categories } });
+			window.plausible("Cookie", { props: { accept_type: user_preferences.accept_type, accepted_categories: user_preferences.accepted_categories.join(", "), rejected_categories: user_preferences.rejected_categories.join(", ") } });
 		},
 
 		languages: {
