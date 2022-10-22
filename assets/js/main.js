@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
 	// run plugin with your configuration
 	cc.run({
 		current_lang: 'de',
-		autoclear_cookies: true,                   // default: false
+		// autoclear_cookies: false,                   // default: false
 		page_scripts: true,                        // default: false
 
 		// mode: 'opt-in'                          // default: 'opt-in'; value: 'opt-in' or 'opt-out'
@@ -78,38 +78,15 @@ window.addEventListener('load', () => {
 							}
 						}, {
 							title: 'Leistungs- und Analyse-Cookies',
-							description: 'Diese Cookies ermöglichen es der Website, sich an die von Ihnen in der Vergangenheit getroffenen Auswahlen zu erinnern',
+							description: 'Diese Cookies ermöglichen es der Website, sich an die von Ihnen in der Vergangenheit getroffenen Entscheidungen zu erinnern. Durch diese Option wird die Plausible Analytics de- bzw aktiviert, es werden keine Cookies gesetzt.',
 							toggle: {
 								value: 'analytics',     // your cookie category
-								enabled: false,
-								readonly: false
-							},
-							cookie_table: [             // list of all expected cookies
-								{
-									col1: '^_ga',       // match all cookies starting with "_ga"
-									col2: 'google.com',
-									col3: '2 years',
-									col4: 'description ...',
-									is_regex: true
-								},
-								{
-									col1: '_gid',
-									col2: 'google.com',
-									col3: '1 day',
-									col4: 'description ...',
-								}
-							]
-						}, {
-							title: 'Cookies für Werbung und Zielgruppenansprache',
-							description: 'Diese Cookies sammeln Informationen darüber, wie Sie die Website nutzen, welche Seiten Sie besucht und welche Links Sie angeklickt haben. Alle Daten sind anonymisiert und können nicht verwendet werden, um Sie zu identifizieren',
-							toggle: {
-								value: 'targeting',
 								enabled: false,
 								readonly: false
 							}
 						}, {
 							title: 'Weitere Informationen',
-							description: 'Bei Fragen zu unserer Richtlinie über Cookies und Ihre Wahlmöglichkeiten wenden Sie sich bitte an uns',
+							description: 'Bei Fragen zu unserer Richtlinie über Cookies und Ihre Wahlmöglichkeiten wenden Sie sich bitte an <a href="mailto:bernd@kaaaxcreators.de?subject=Frage%20wegen%20Cookies">mich</a>',
 						}
 					]
 				}
