@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /.vscode
+Disallow: /assets
+Disallow: /LICENSE
+Disallow: /impressum
+Disallow: /datenschutz
+
+Sitemap: https://kaaaxcreators.de/sitemap.xml

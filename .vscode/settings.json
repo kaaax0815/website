@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.port": 5501,
+    "live"
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.linkedEditing": true,
+}
