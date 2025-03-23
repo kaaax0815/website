@@ -75,7 +75,7 @@ window.addEventListener('DOMContentLoaded', () => {
 							}
 						}, {
 							title: 'Weitere Informationen',
-							description: 'Bei Fragen zu unserer Richtlinie über Cookies und Ihre Wahlmöglichkeiten wenden Sie sich bitte an <a href="mailto:bernd@kaaaxcreators.de?subject=Frage%20wegen%20Cookies">mich</a>',
+							description: 'Bei Fragen zu unserer Richtlinie über Cookies und Ihre Wahlmöglichkeiten wenden Sie sich bitte an <a href="mailto:legal@berndstorath.de?subject=Frage%20wegen%20Cookies">mich</a>',
 						}
 					]
 				}
